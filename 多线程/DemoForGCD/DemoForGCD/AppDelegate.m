@@ -26,8 +26,19 @@
 //    [controller asyncSerial];
 //    [controller syncMain];
 //    [controller test];
-    [controller asyncMain];
+//    [controller asyncMain];
     
+    //GCD通信
+//    [controller communication];
+    
+//    [controller after];
+//    [controller group];
+//    [controller barrier];
+//    [controller apply];
+//    [controller testDataConflict];
+    [controller semaphoreSync];
+
+//    [controller semaphore];
     
     [self.window makeKeyAndVisible];
     return YES;
